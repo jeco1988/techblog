@@ -1,5 +1,5 @@
 function formatDate(date) {
-    return `${new Date(date).getMonth() + 1}/${new Date(date).getDate()}/${new Date(
+    return `${new Date(date).getDate() + 1}/${new Date(date).getMonth()}/${new Date(
         date
       ).getFullYear()}`;
 }

@@ -5,21 +5,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jack's Tech Blog</title>
-    <link rel="stylesheet" href="/TechBlog/public/css/style.css">
+    <link rel="stylesheet" href="/css/style.css">
 </head>
 
 <body>
     <div class="wrapper">
         <header>
             <h1>
-                <a href="/">home</a>
+                <a href="/">Home</a>
             </h1>
             <nav>
                 {{#if loggedIn}}
-                <a href="/dashboard">dashboard</a>
-                <button id="logout" class="btn-no-style logout">logout</button>
+                <a href="/dashboard">Dashboard</a>
+                <button id="logout" class="btn-no-style logout">Logout</button>
                 {{else}}
-                <a href="/login">login</a>
+                <a href="/login">Login</a>
                 {{/if}}
             </nav>
         </header>
@@ -34,7 +34,7 @@
     </div>
 
     {{#if loggedIn}}
-    <script src="/logout"></script>
+    <script src="/js/logout.js"></script>
     {{/if}}
 </body>
 
