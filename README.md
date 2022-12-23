@@ -6,7 +6,7 @@
 A CMS-style blog site where users can publish their blog posts and comment on other developers’ posts as well.
 
 
-![Project Screenshot](/public/images/Screenshot.jpg "OpenWeather Dashboard")
+![Project Screenshot](/public/images/Screenshot.png "Tech Blog")
 
 Visit Project Link: https://github.com/jeco1988/techblog
 
